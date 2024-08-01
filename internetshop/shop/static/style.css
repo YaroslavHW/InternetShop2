@@ -1,6 +1,5 @@
     body{
         background-color: #E4E4E4;
-        width: 100%;
     }
     .content{
         display: flex;
@@ -8,25 +7,19 @@
         margin-top: 100px;
     }
     img{
-        width: 150px;
-        height: 150px;
+        width: 30%;
+        height: 30%;
     }
     .cart{
         width: 30%;
         text-align: center;
-        height: 470px;
         background-color: white;
         border-radius: 30px;
     }
     p{
-        color: 828282;
-        margin-bottom: 100px;
-        height: 70px;
-        width: 500px;
-        margin-left: 40px;
+       color: black;
     }
     .buy{
-        text-decoration: none;
         color: white;
         border: 1px solid #C3083F;
         padding: 20px 60px;
