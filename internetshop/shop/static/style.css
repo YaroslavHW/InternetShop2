@@ -29,6 +29,7 @@
         padding: 20px 60px;
         background-color: #C3083F;
         border-radius: 70px;
+        cursor: pointer;
     }
     .menu{
         background-color: #242424;
@@ -42,7 +43,6 @@
     }
     .buy:hover{
         background-color: #ED0046;
-        cursor:pointer;
     }
     button{
         margin-top: 10px;
