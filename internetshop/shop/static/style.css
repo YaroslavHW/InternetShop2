@@ -42,6 +42,7 @@
     }
     .buy:hover{
         background-color: #ED0046;
+        cursor:pointer;
     }
     button{
         margin-top: 10px;
