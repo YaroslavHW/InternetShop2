@@ -24,7 +24,7 @@
        margin-bottom: 10px;
     }
     .buy{
-        color: white;
+        color: red;
         border: 1px solid #C3083F;
         padding: 20px 60px;
         background-color: #C3083F;
@@ -48,6 +48,13 @@
         margin-top: 10px;
         margin-bottom: 10px;
     }
-    .productCard img{
-        width: 50%;
+    .productCard{
+        width: 70%;
+        margin_left:auto;
+        margin_right:auto;
+
+    }
+    .productPreview{
+        max-width:300px;
+        max-height:300px;
     }
