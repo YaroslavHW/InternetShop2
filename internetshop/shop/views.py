@@ -3,9 +3,9 @@ from django.shortcuts import render
 
 # Create your views here.
 def home(request):
-    products = []
+    products = [1]
     return render(request, "index.html", context={
-        'product':products
+        'products': products
     })
 
 def view_product(request):

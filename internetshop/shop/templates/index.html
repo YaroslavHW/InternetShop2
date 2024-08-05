@@ -8,6 +8,7 @@
         <a class="menu_link" href="#">Город</a>
     </div>
     <div class="content">
+        {% for product in products %}
         <div class="cart">
             <h2>Видеокарта MSI RTX4060Ti GAMING X</h2>
             <img src="https://c.dns-shop.ru/thumb/st4/fit/wm/0/0/4c8ee240c25de1dd692b5f8fc99580be/b15e801acca4122bf7adc58bbf105afdf075e1f0b743aa06813116a7958cab10.jpg" alt="">
@@ -15,6 +16,7 @@
                 в виртуальный мир. Графический процессор серии GeForce RTX</p>
             <button class="buy">Купить</button>
         </div>
+        {% endfor %}
            <div class="cart">
             <h2>Жёлтая тетрадь 96 листов в клетку.</h2>
             <img src="https://avatars.mds.yandex.net/get-mpic/5145248/img_id457064903755328.jpeg/9" alt="">
@@ -30,3 +32,5 @@
         </div>
     </div>
 </div>
+
+
