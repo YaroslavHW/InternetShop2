@@ -48,13 +48,9 @@
         margin-top: 10px;
         margin-bottom: 10px;
     }
-    .productCard{
-        width: 70%;
-        margin_left:auto;
-        margin_right:auto;
+    .productCard img{
+        width: 100%;
+        height: 100%;
+    }
 
-    }
-    .productPreview{
-        max-width:300px;
-        max-height:300px;
-    }
+
