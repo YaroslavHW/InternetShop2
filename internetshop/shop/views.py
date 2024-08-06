@@ -5,7 +5,7 @@ from django.shortcuts import render
 def home(request):
     products = []
     return render(request, "index.html", context={
-        'product':products
+        'products':products
     })
 
 def view_product(request):
