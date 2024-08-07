@@ -48,9 +48,30 @@
         margin-top: 10px;
         margin-bottom: 10px;
     }
-    .im{
-        width: 70%;
-        height: 70%;
+    .productCard{
+        width:90%;
+        height:100%;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        border-radius: 50px;
     }
+    .im{
+        width: 500px;
+        height: 500px;
+        padding: 0;
+        margin: 0;
+    }
+    .left-content{
+        padding-left: 10%;
+        width: 50%;
+    }
+    .right-content{
+        padding-top: 5%;
+    }
+    .right-content button{
+       padding: 30px 90px;
+    }
+
 
 
