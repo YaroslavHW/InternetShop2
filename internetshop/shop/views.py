@@ -8,5 +8,5 @@ def home(request):
         'products':products
     })
 
-def view_product(request):
-    return render(request, template_name='product.html')
+def view_product(request, id):
+    return render(request, template_name='product.html', context={'id': id})
