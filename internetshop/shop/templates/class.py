@@ -24,9 +24,9 @@ class BookProduct(Product):
 
 
 
-product_list = [
+Product_list = [
     TechProduct(name='Видеокарта',price=45000, fan=3, illumination='yes'),
     BookProduct(name='Тетрадь',price=100,color='Жёлтый',pages=96),
 ]
 
-print(product_list[0].calculate_price(10))
+print(Product_list[0].calculate_price(10))

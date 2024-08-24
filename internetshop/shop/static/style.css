@@ -17,6 +17,7 @@
         text-align: center;
         background-color: white;
         border-radius: 30px;
+        height: 40%;
     }
     p{
        color: gray;
@@ -30,6 +31,7 @@
         background-color: #C3083F;
         border-radius: 70px;
         cursor: pointer;
+        text-decoration: none;
     }
     .menu{
         background-color: #242424;
@@ -72,6 +74,3 @@
     .right-content button{
        padding: 30px 90px;
     }
-
-
-
