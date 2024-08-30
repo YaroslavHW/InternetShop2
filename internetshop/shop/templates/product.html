@@ -15,15 +15,40 @@
         </div>
     <div class="content">
         <div class="productCard">
-            <div class="left-content">
-                <img class="im" src="https://c.dns-shop.ru/thumb/st4/fit/wm/0/0/4c8ee240c25de1dd692b5f8fc99580be/b15e801acca4122bf7adc58bbf105afdf075e1f0b743aa06813116a7958cab10.jpg" alt="">
-            </div>
+            <div class="content">
+                <div class="left-content">
+                    <img class="im" src="{{ product.image_url }}">
+                </div>
             <div class="right-content">
-                <h2>{{Product.name}}</h2>
-                <p>{{Product.description}}</p>
-                <h2>{{Product.price}}</h2>
+                    <h2>{{product.name}}</h2>
+                    <p>{{product.description}}</p>
+                    <h3>Характеристики:</h3>
+                <p>
+                    Обьём видеопамяти: {{product.video_memory}} ГБ
+                </p>
+                     <p>
+                        Количество листов: {{product.pages_count}} листов
+                    </p>
+                     <p>
+                         Количество ядер: {{product.cores_count}} ядер
+                    </p>
+                        <h2>Цена: {{product.price}} ₽</h2>
                 <button class="buy">Купить</button>
             </div>
+            </div>
+                <h1 class="text">Отзывы:</h1>
+                <div class="reviews">
+                    <div class="review">
+                        <div class="reviewsheader">
+                            <h2>Евгений Онегин</h2>
+                            <h2 class="green">Положительный</h2>
+                            <p>Наше дело не так однозначно, как может показаться: реализация намеченных плановых заданий напрямую зависит от глубокомысленных рассуждений.
+                                Разнообразный и богатый опыт говорит нам, что понимание сути ресурсосберегающих технологий обеспечивает актуальность инновационных методов
+                                управления процессами. Имеется спорная точка зрения, гласящая примерно следующее: действия представителей оппозиции набирают
+                                популярность среди определенных слоев населения, а значит, должны быть заблокированы в рамках своих собственных рациональных ограничений.</p>
+                        </div>
+                    </div>
+                </div>
         </div>
     </div>
 </body>
