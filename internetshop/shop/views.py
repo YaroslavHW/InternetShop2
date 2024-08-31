@@ -12,8 +12,9 @@ def home(request):
 
 def view_product(request, id):
     product = Product.objects.filter(id=id).first()
-    review = product.review_set.all()
+    reviews = product.review_set.all()
 
     return render(request, template_name='product.html', context={
-        'product': product
+        'product': product,
+        'reviews': reviews
     })
