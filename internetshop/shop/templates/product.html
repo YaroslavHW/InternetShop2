@@ -57,12 +57,14 @@
                     <h1 class="text">Отзывы:</h1>
                     <div class="createReview">
                         <form class="createReviewForm" method="POST">
+                            {% csrf_token %}
+
                             <label for="author">Автор:</label>
                             <input name="author" type="text">
                             <label for="rating">Оценка:</label>
                             <select name="rating">
-                                <option>Положительный</option>
-                                <option>Отрицательный</option>
+                                <option value="1">Положительный</option>
+                                <option value="0">Отрицательный</option>
                             </select>
                             <label for="text">Описание:</label>
                             <textarea name="text", rows="10"></textarea>
