@@ -17,13 +17,18 @@
         text-align: center;
         background-color: white;
         border-radius: 30px;
-        height: 120%;
+        height: 500px;
     }
     p{
        color: gray;
        margin-top: 10px;
+       margin-bottom: 7%;
+    }
+    .info-text{
+        margin-top: 10px;
        margin-bottom: 10px;
     }
+
     .buy{
         color: white;
         border: 1px solid #C3083F;
@@ -32,7 +37,6 @@
         border-radius: 70px;
         cursor: pointer;
         text-decoration: none;
-        margin-top: 10px;
     }
     .menu{
         background-color: #242424;
@@ -75,6 +79,8 @@
     }
     .right-content{
         padding-top: 5%;
+        width: 50%;
+        margin-right: 10%;
     }
     .right-content button{
        padding: 30px 90px;
@@ -101,4 +107,35 @@
     .createReviewForm * {
         margin-top: 1%;
         font-size: 20px;
+    }
+    .PayBut{
+        color: white;
+        border: 1px solid #C3083F;
+        padding: 40px 160px;
+        background-color: #C3083F;
+        border-radius: 70px;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    .PayContent{
+        text-align: center;
+    }
+    .PayContent h2{
+        font-size: 40px;
+    }
+    .PayBut:hover{
+        background-color: #ED0046;
+    }
+    .PayText{
+        margin-bottom: 3%;
+    }
+    .inputContent{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin-left: 25%;
+    }
+    .inputContent * {
+        font-size: 20px;
+
     }

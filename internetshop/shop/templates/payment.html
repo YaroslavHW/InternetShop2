@@ -1,10 +1,34 @@
 <!doctype html>
 <html lang="en">
 <head>
+    {% load static %}
     <link rel="stylesheet" href="{% static 'style.css' %}"/>
     <title>payment</title>
 </head>
 <body>
+    <div class="menu">
+        <a class="menu_link" href="#">Адрес</a>
+        <a class="menu_link" href="#">Скидки</a>
+        <a class="menu_link" href="#">Войти</a>
+        <a class="menu_link" href="#">Город</a>
+    </div>
+    <div class="PayContent">
+        <h2>Товар: Видеокарта</h2>
+        <h2>К оплате: 200 руб.</h2>
+        <h2>Реквизиты для перевода:</h2>
+        <p class="PayText">+75844542342</p>
+        <p class="PayText">Иванов Иван Иванович</p>
 
+        <div class="inputContent">
+            <label for="">Адрес:</label>
+            <input type="text">
+             <label for="">Ваше ФИО:</label>
+            <input type="text">
+            <label for="">Ваш телефон:</label>
+            <input type="text">
+        </div>
+
+        <button class="PayBut">Оплатил</button>
+    </div>
 </body>
 </html>
