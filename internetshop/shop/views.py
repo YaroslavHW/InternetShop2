@@ -6,7 +6,7 @@ from .models import Product
 from .models import Review
 
 API_TOKEN = '<7077276665:AAHBj6gWKhA7_MwA6pkwqyQxTg2kWxnsE64>'
-CHAT_ID = 383636084
+CHAT_ID = 6670641282
 bot = telebot.TeleBot(API_TOKEN)
 # Create your views here.
 
