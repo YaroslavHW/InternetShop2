@@ -118,7 +118,8 @@
         font-size: 20px;
     }
     .PayContent{
-        text-align: center;
+       width: 50%;
+       margin-left: 25%;
     }
     .PayContent h2{
         font-size: 40px;
@@ -132,10 +133,15 @@
     .inputContent{
         display: flex;
         flex-direction: column;
-        width: 50%;
-        margin-left: 25%;
+        margin-bottom: 1%;
     }
     .inputContent * {
         font-size: 20px;
-
+    }
+    .inputContent label{
+        margin-top: 1%;
+        margin-bottom: 0.5%;
+    }
+    .textSuccess{
+        text-align: center;
     }

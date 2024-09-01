@@ -19,14 +19,15 @@
         <p class="PayText">+75844542342</p>
         <p class="PayText">Иванов Иван Иванович</p>
 
-        <div class="inputContent">
+        <form class="inputContent">
+            {% csrf_token %}
             <label for="">Адрес:</label>
-            <input type="text">
+            <input type="text" name="address">
              <label for="">Ваше ФИО:</label>
-            <input type="text">
+            <input type="text" name="fullname">
             <label for="">Ваш телефон:</label>
-            <input type="text">
-        </div>
+            <input type="text" name="phone">
+        </form>
 
         <button class="PayBut">Оплатил</button>
     </div>
