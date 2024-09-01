@@ -36,7 +36,9 @@
                 <button class="buy">Купить</button>
             </div>
             </div>
-                <div class="reviews">
+            <h1 class="text">Отзывы:</h1>
+            <div class="Review-content">
+                       <div class="reviews">
                     {% for review in reviews %}
                     <div class="review">
                         <div class="reviewsheader">
@@ -54,7 +56,6 @@
                         </div>
                         {% endfor %}
                     </div>
-                    <h1 class="text">Отзывы:</h1>
                     <div class="createReview">
                         <form class="createReviewForm" method="POST">
                             {% csrf_token %}
@@ -73,6 +74,7 @@
                         </form>
                     </div>
                 </div>
+            </div>
         </div>
     </div>
 </body>
