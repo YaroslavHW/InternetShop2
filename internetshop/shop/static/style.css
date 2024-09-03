@@ -37,6 +37,7 @@
         border-radius: 70px;
         cursor: pointer;
         text-decoration: none;
+        font-size: 16px;
     }
     .menu{
         background-color: #242424;
@@ -121,6 +122,11 @@
     .PayContent{
        width: 50%;
        margin-left: 25%;
+       background-color: white;
+       border-radius: 24px;
+       padding: 10px;
+       text-align: center;
+       margin-top: 3%;
     }
     .PayContent h2{
         font-size: 40px;
