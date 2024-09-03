@@ -116,6 +116,7 @@
         border-radius: 70px;
         cursor: pointer;
         font-size: 20px;
+        text-decoration: none;
     }
     .PayContent{
        width: 50%;
@@ -144,4 +145,15 @@
     }
     .textSuccess{
         text-align: center;
+    }
+    .ButSend{
+        color: white;
+        border: 1px solid #C3083F;
+        padding: 20px 140px;
+        background-color: #C3083F;
+        border-radius: 70px;
+        cursor: pointer;
+    }
+    .ButSend:hover{
+        background-color: #ED0046;
     }

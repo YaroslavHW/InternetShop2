@@ -33,8 +33,11 @@
                          Количество ядер: {{product.cores_count}} ядер
                     </p>
                         <h2>Цена: {{product.price}} ₽</h2>
-                <a href="/payment/{{ product.id }}">
-                <button class="buy">Купить</button>
+
+                    <a href="/payment/{{ product.id }}">
+            <button class="buy">Купить</button>
+        </a>
+
             </div>
             </div>
             <h1 class="text">Отзывы:</h1>
@@ -71,7 +74,7 @@
                             <label for="text">Описание:</label>
                             <textarea name="text", rows="10"></textarea>
 
-                            <button>Отправить</button>
+                            <button class="ButSend">Отправить</button>
                         </form>
                     </div>
                 </div>
